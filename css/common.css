@@ -3,13 +3,6 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
 
-/* 순욱 -- fontawesome, bootstrap css 등의 css는 필요 페이지에서 link로 직접 로드*/
-
-/* 
-메모
-1. font-weight: 400 설정 한거랑 안한거 차이 없음.
-2. 부트스트랩 로드하면 reset.css에 따로 설정한 a {text-decoration: none;} 안됨 그래서 common.css에 설정.
-*/
 
 header {
   box-sizing: border-box;

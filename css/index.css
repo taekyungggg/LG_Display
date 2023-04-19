@@ -24,6 +24,11 @@ body {
 }
 
 /* -- portfolio -- */
+.highlight {
+  box-shadow: inset 0 -26px 0 #ffb1b1;
+  font-size: 20px;
+}
+
 .notice_portfolio {
   position: fixed;
   width: 600px;
@@ -67,7 +72,7 @@ body {
 .notice_portfolio p {
   margin: 20px 0;
 }
-.notice_portfolio a{
+.notice_portfolio a:nth-child(3){
   color: #2883f3;
 }
 .notice_portfolio a:hover{
